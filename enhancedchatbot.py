@@ -17,7 +17,7 @@ while True:
     
     choice = input("do you want to continue: ")
     
-    if choice != "yes":
+    if choice == "no":
         break  
 
 print("thanks have a good day.")
